@@ -19,8 +19,8 @@ module.exports = {
   MOUSE_FOLLOW_EFFECT_TYPE: 11, // 1-12
   MOUSE_FOLLOW_EFFECT_COLOR: '#ef672a', // 鼠标点击特效颜色 #xxxxxx 或者 rgba(r,g,b,a)
 
-  // 樱花飘落特效
-  SAKURA: process.env.NEXT_PUBLIC_SAKURA || fork, // 开关
+  // 樱花飘落特效 
+  SAKURA: process.env.NEXT_PUBLIC_SAKURA || true, // 开关 
   // 漂浮线段特效
   NEST: process.env.NEXT_PUBLIC_NEST || false, // 开关
   // 动态彩带特效
